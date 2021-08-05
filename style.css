@@ -1,0 +1,116 @@
+html {
+	position: relative;
+}
+
+body {
+	/*margin-bottom: 100px;*/
+	margin-top: 30px;
+}
+
+.jumbotron {
+	height: 600px;
+	background-image: url('img/bg3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -70px;
+}
+
+.jumbotron h1, .jumbotron p {
+	color:    #404040   ;
+	text-shadow: 1px 1px  black;
+}
+
+.jumbotron img {
+	width: 200px;
+	border: 5px solid    #404040   ;
+	box-shadow: 1px 1px  black;
+}
+.jumbotron p {
+	text-decoration: line-through;	
+}
+
+hr {
+	width: 200px;
+	border: 2px solid #404040;
+}
+
+section {
+	min-height: 700px;
+}
+
+
+.about{
+	margin-top: -30px;
+	background-color:   #959595  ;
+}
+
+.about .container {
+	padding-top: 50px;
+}
+
+
+.about h2, .about p{
+	position: 	relative	;	
+	color: #000;
+}
+
+#pAbout {
+	font-size: 16px;
+}
+
+.portfolio {
+	background-color:  #404040 ;
+	min-height: 600px;
+	padding-bottom: 20px; 
+}
+
+.portfolio .container {
+	padding-top: 50px;
+}
+
+.portfolio h2 {
+	color:  #e4e2e2 ;
+}
+
+.portfolio hr {
+	border: 2px solid #e4e2e2;
+
+}
+
+.contact {
+	min-height: 800px;
+	background-color:  #959595 ;
+	margin-top: -10px;
+	padding-top: 50px;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #404040;
+	/*margin-top: -50px;*/
+}
+
+footer .container {
+	/*margin-top: -50px;
+	margin-bottom: 20px;*/
+}
+
+footer .row p {
+	color: 	white;
+	padding-top: 20px;
+	
+}
+
+footer .row a {
+	text-decoration: none;
+	color: 	white;
+}
+
+footer .row p a:hover {
+	color: 	white;
+	text-decoration: 	underline;	
+
+}
